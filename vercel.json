@@ -1,25 +1,16 @@
 {
     "framework": null,
-    "redirects": [ 
+    "redirects": [
         {
-            "source": "/(.+)",
-            "destination": "https://mega.cinmov.com/api/redirect/$1",
+            "source": "/",
+            "destination": "https://mega.cinmov.com",
             "permanent": true
         }
     ],
-    "headers": [
+    "rewrites": [
         {
-            "source": "/(.*)",
-            "headers": [
-                {
-                    "key": "Access-Control-Allow-Origin",
-                    "value": "*"
-                },
-                {
-                    "key": "Cache-Control",
-                    "value": "public, max-age=3600, s-maxage=86400"
-                }
-            ]
+            "source": "/(.+)",
+            "destination": "https://mega.cinmov.com/api/redirect/$1"
         }
     ]
 }

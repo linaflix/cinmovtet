@@ -1,16 +1,23 @@
-# Proxy Vercel vers Hosting PHP
+# CINMOV – Movie & TV Series Discovery Platform
 
-## Configuration Cloudflare (Important)
-Pour que le cache fonctionne et épargne votre serveur :
-1. Allez dans **Caching** > **Configuration** sur Cloudflare.
-2. Créez une **Page Rule** ou utilisez **Cache Rules**.
-3. Ciblez l'URL de votre hosting ou tous les URLs.
-4. Réglez **Cache Level** sur **Cache Everything**.
-5. Réglez **Edge TTL** sur **1 year**.
+**Official website:** https://cinmov.com
 
-## Domaines configurés
-- `i.cinmov.com`
-- `vip.cinmov.com`
-- `fr.cinmov.com`
-- `www.cinmov.com`
-- `cinmov.com`
+CINMOV is a movie and TV series discovery platform designed to help users explore films, discover television series, and access entertainment information.
+
+### Features
+- Movie and TV series discovery
+- Trending and popular titles
+- Movie details and information
+- Search and filtering
+- Responsive interface for mobile and desktop
+- Entertainment recommendations
+
+### Website
+
+Visit the official platform:
+
+https://cinmov.com
+
+### Technology
+
+The project uses modern web technologies and movie metadata APIs to provide an entertainment discovery experience.
